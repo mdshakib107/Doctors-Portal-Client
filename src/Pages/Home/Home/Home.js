@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Services from '../Services/Services';
+import Navigation from "./../../Shared/Navigation/Navigation"
 const Home = () => {
     return (
         <div>
-            <h1>This is Home </h1>
+            <Navigation></Navigation>
+            <Services></Services>
         </div>
     );
 };
